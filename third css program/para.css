@@ -1,0 +1,14 @@
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+h1{
+    border-left: 32px solid crimson;
+    margin: 30px;
+    background: -moz-linear-gradient(blue,black);
+    
+
+}
