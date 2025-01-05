@@ -1,0 +1,17 @@
+.one{
+    color: brown;
+
+}
+.two
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#one{
+    color: aqua;
+    background-color: black;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    border: 2px sandybrown dotted;
+}
