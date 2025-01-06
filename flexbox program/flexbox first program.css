@@ -1,0 +1,26 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: violet;
+    margin: 20px auto;
+    
+}
+.container{
+    border: 5px solid dotted double gold;
+    width: 800px;
+    height: 455px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+}
+.container.child{
+    width: 50px;
+    height: 50px;
+    background-color: slateblue;
+    text-align: center;
+}
