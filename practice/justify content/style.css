@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: aquamarine;
+}
+.container{
+    border: 40px double yellow;
+    height: 800px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container div{
+    height:50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 15px;
+    text-align: center;
+}
