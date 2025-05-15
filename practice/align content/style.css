@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: gold;
+}
+.container{
+    border: 50px solid red;
+    margin: 30px;
+    height: 1800px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.container div{
+    height: 100px;
+    width: 80px;
+    margin: 20px;
+    background-color: aqua;
+    align-content: center;
+    
+}
