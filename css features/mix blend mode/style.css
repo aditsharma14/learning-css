@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    
+}
+.container.img{
+    background-image: url(sandy-ravaloniaina-szvb5ysGo_o-unsplash.jpg),
+    url(jonas-vandermeiren-zvXQyJsg9Wg-unsplash.jpg),linear-gradient(steelblue,firebrick);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply,screen ;
+}
