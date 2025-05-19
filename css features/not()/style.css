@@ -1,0 +1,23 @@
+.section{
+    width: 42em;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 4rem;
+}
+body{
+    background: #333;
+    color: white;
+    padding: 2rem;
+}
+.section.A.article-title:not(.content){
+    color:#31cdf7;
+}
+.section.B :not(.content) {
+  font-size: 14px;
+  color: teal;
+}
+
+.section.C button:not([disabled]) {
+  font-size: 20px;
+  background: crimson;
+}
